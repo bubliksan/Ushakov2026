@@ -30,10 +30,15 @@
                     <input id="name_input" type="text" name="name" class="popup__input popup__input_type_name" placeholder="Фамилия" pattern="[а-яА-Яa-zA-Z \-Ёё]+" minlength="2" maxlength="40" data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы" required>
                     <span class="name_input_error form__input_error"></span>
                 </label>
-              <label>
-              <input id="description_input" type="text" name="description" class="popup__input popup__input_type_description" placeholder="Текст" pattern="[а-яА-Яa-zA-Z \-ё]+" minlength="2" maxlength="200" data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы" required>
-              <span class="description_input_error form__input_error"></span>
-              </label>
+                <label>
+                    <input id="description_input" type="text" name="description" class="popup__input popup__input_type_description" placeholder="Текст" pattern="[а-яА-Яa-zA-Z \-ё]+" minlength="2" maxlength="200" data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы" required>
+                    <span class="description_input_error form__input_error"></span>
+                </label>
+                <label>
+                    <input id="description_input" type="checkbox" name="description" class="popup__checkbox">Политика обработки данных
+                    <span class="description_input_error form__input_error"></span>
+                </label>
+              
               <button type="submit" name="submit-button" class="button popup__button">Отправить</button>
             </form>
           </div>
